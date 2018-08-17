@@ -1,0 +1,58 @@
+NGS DB 에서 사용되는 Env S/W 
+
+1. Policy Admin / SFA   보험 정책 같은 것? 
+
+2.  SharePlex 
+    db 간의 마이그레이션, 복제 등을 실시간으로 하여 고확장성과 데이터 통합을 달성할 수 있다. 
+	이때 어플리케이션 등에 어떠한 영향도 미치지 않고 수행이 된다. 
+    오라클 데이터의 여러 사본을 복젤할때 제거의 위협을 최소화 하여 수행 되어진다. 
+
+3. DB safer 
+    통합 접근제어 솔루션  -> db 의 접근통제 시스템 접근 통제를 통해서 console 작업 을 통제하고 사용자가 우회하여 접근하는 것을 막는다. 
+    구조의 종류는 Sniffing, gateway(In-line, Proxy) , server agent , hybrid 등이 존재한다. 
+4. oracle RAC 
+    기존이 한개의 저장소를 2개의 instance와 맞물려있어서 접근해도같은 정보를 가지고 하나가 죽어도 시스템은 멈추지 않는다. 
+    이때 ping현상이 발생할 수 있는데 ping현상을 개선하여 나타난 것. 
+    변경된 데이터를 cache fusion이라는 기능을 통해서 storage 에 접근하는 것이 아닌 iwnstance끼리 교환하는 것
+
+5. SMS / Netbackup 
+    SMS / short message Service 
+    Netbackup / 다른 환경에서의 데이터 보호 기능을 완벽하게 지원한다. 모든환경에서 백업/복구가 가능하다. 이를 통해 일관된 백업정책 유지 가능. 중앙에서 관리하여
+    데이터의 보호에 있어서 비용, 리소스 등의 활용이 용이 하다. 
+
+Dev WAS
+    WAS
+
+1. SEMP 
+    Securre Enterprising Mobile Platform 
+
+2. Sorting
+    sorting ? algorithm ? 
+3. XecureSmart
+    모바일 보안 솔루션으로 전자서명 및 구간 암호화 를 수행 한다. 인증서 발급 및 이동 중계기와 연계 핸드폰 자체에서 인증연산을 통해서 보안성 향상 
+    보안 키패드 제공 및 보안표준을 따른다. 
+4. TWS Agent
+
+5. Safeidentity Agent
+    통합인증 및 권환 계정 관리 솔루션 
+    내부시스템 관리에 용이 
+    중복로그인, 다양한 인증방법적용가능, 위변조 및 재사용 방지 
+6. NCRM/ Chart 
+
+7. InnoRules
+    BRMS 소프트웨어 시스템 툴 
+8. Report
+
+9. DocumentSafer
+
+10. XecureWeb Encryption 
+    PKI 기반 웹구간 암호화 솔루션  
+    주민 번호 등 민감정보 암호화 웹표준 지원 인터넷 뱅킹, 전자민원시스템 등에 쓰임 
+11. AnyFrame
+    Samsung 에서 spring 을 기반으로 개발한 opensource framework 
+12. Weblogic
+    java EE standard web application server 
+    use oracle's product, so supporting mysql, oracle db, and MS sql server, etc .. 
+
+13. SMS/Netbackup 
+    NGS 와 동일 
